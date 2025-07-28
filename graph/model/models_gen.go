@@ -14,9 +14,6 @@ type Login struct {
 	Password string `json:"password"`
 }
 
-type Mutation struct {
-}
-
 type NewLink struct {
 	Title   string `json:"title"`
 	Address string `json:"address"`
@@ -25,9 +22,6 @@ type NewLink struct {
 type NewUser struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
-}
-
-type Query struct {
 }
 
 type RefreshTokenInput struct {
